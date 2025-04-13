@@ -72,9 +72,9 @@ Here's what the script does, step-by-step:
 1. Launches the browser and opens https://www.intervue.io
 2. Clicks the Login button, which opens in a new tab
 3. Switches to the new tab using getWindowHandles()
-4. Clicks Login with Email, enters:
-Email: neha@intervue.io
-Password: Ps@neha@123 
+4. Clicks Login with Email, enters:<br>
+Email: neha@intervue.io<br>
+Password: Ps@neha@123 <br>
 
 5. Waits for dashboard to load
 6. Locates and clicks the search bar
