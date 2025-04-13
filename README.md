@@ -1,6 +1,6 @@
 <!-- <<<<<<< HEAD -->
 # IntervueAutomationTask
-============================
+============================<br>
 This Java Selenium automation script logs into [Intervue.io](https://www.intervue.io), performs a search, and logs out. 
 It is built using Maven and uses WebDriverManager to manage the ChromeDriver automatically.
 
@@ -61,7 +61,7 @@ All dependencies are added in your `pom.xml` file. Here are the key ones:
 1. Clone or download this repository.
 2. Open the project in your preferred Java IDE.
 3. Run the following command to download dependencies:
-<pre> ```bash mvn clean install ``` </pre>
+<pre> ``` bash mvn clean install ``` </pre>
 4. Navigate to src/test/java/IntervueTask/CompletFlow.java
 5. Run the CompletFlow file as a Java application.
 
@@ -74,8 +74,8 @@ Here's what the script does, step-by-step:
 3. Switches to the new tab using getWindowHandles()
 4. Clicks Login with Email, enters:
 
-Email: neha@intervue.io
-Password: Ps@neha@123
+``` Email: neha@intervue.io
+Password: Ps@neha@123 ```
 
 5. Waits for dashboard to load
 6. Locates and clicks the search bar
