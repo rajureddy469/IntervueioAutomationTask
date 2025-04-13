@@ -73,9 +73,9 @@ Here's what the script does, step-by-step:
 2. Clicks the Login button, which opens in a new tab
 3. Switches to the new tab using getWindowHandles()
 4. Clicks Login with Email, enters:
-``` Email: neha@intervue.io
+Email: neha@intervue.io
 Password: Ps@neha@123 
-```
+
 5. Waits for dashboard to load
 6. Locates and clicks the search bar
 7. Switches to the active popup, types "Hello", and clicks a suggestion
